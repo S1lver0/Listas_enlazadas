@@ -89,7 +89,7 @@ Nodo* inserta_antes_X (Nodo *P_ini,int DATO,int comp){
         }
         else{
             atras->liga=nuevo;
-            adelante->liga=adelante;
+            nuevo->liga=adelante;
         }
     }
     else{
